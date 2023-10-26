@@ -16,7 +16,8 @@ dependencies {
 }
 
 checkstyle {
-
+    toolVersion = "8.41.1"
+    configFile = file('config/google-checks.xml')
 }
 
 test {
